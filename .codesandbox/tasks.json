@@ -20,38 +20,31 @@
     },
     "server": {
       "name": "server",
-      "command": "npm install -g json-server && npm run server",
-      "runAtStart": true
+      "command": "npm install -g json-server && npm run server"
     },
     "build": {
       "name": "build",
-      "command": "npm run build",
-      "runAtStart": false
+      "command": "npm run build"
     },
     "preview": {
       "name": "preview",
-      "command": "npm run preview",
-      "runAtStart": false
+      "command": "npm run preview"
     },
     "build-only": {
       "name": "build-only",
-      "command": "npm run build-only",
-      "runAtStart": false
+      "command": "npm run build-only"
     },
     "type-check": {
       "name": "type-check",
-      "command": "npm run type-check",
-      "runAtStart": false
+      "command": "npm run type-check"
     },
     "lint": {
       "name": "lint",
-      "command": "npm run lint",
-      "runAtStart": false
+      "command": "npm run lint"
     },
     "format": {
       "name": "format",
-      "command": "npm run format",
-      "runAtStart": false
+      "command": "npm run format"
     }
   }
 }
