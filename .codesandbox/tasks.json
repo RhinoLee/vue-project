@@ -7,7 +7,7 @@
     },
     {
       "name": "Install jsonserver",
-      "command": "npm install -g json-server && npm run server"
+      "command": "npm install -g json-server"
     }
   ],
 
@@ -20,7 +20,8 @@
     },
     "server": {
       "name": "server",
-      "command": "npm install -g json-server && npm run server"
+      "command": "npm run server",
+      "runAtStart": true
     },
     "build": {
       "name": "build",
